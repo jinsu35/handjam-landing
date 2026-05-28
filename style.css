@@ -83,9 +83,19 @@ main {
   margin: 16px auto 24px;
 }
 .pip img {
-  width: clamp(180px, 28vw, 280px);
+  width: clamp(160px, 22vw, 240px);
   height: auto;
   filter: drop-shadow(0 8px 18px rgba(59,29,17,0.25));
+}
+
+/* X embed — center the blockquote, modest top spacing */
+.x-embed {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+}
+.x-embed .twitter-tweet {
+  margin: 0 auto !important;
 }
 
 /* ---------- App Store CTA ---------- */
