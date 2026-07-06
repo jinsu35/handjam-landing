@@ -126,6 +126,17 @@ main {
   opacity: 0.85;
 }
 
+/* Pre-launch date line under the CTA. Remove this class from index.html
+   after launch — the button copy already reads "Download". */
+.launch-note {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+  opacity: 0.6;
+}
+
 /* ---------- Sections ---------- */
 
 section {
